@@ -4,9 +4,14 @@ html, body
   margin: 0;
 }
 
-body
+#bsc
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+background-image: linear-gradient(to right top, #0091ff, #286a96, #193e53, #01293f);
+}
+
+#asc
+{
+background-image: linear-gradient(to right top, #0091ff, #286a96, #193e53, #01293f);
 }
 
 .header
@@ -43,6 +48,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 #logout
 {
 	font-size: 20px; float: right;
+	margin-top: 10px;
 }
 
 
@@ -98,3 +104,13 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 	width: 50%;
 	border-radius: 10px;
 }
+
+.co{
+	background: orange;
+    border-radius: 10px;
+    border-top: 10px solid greenyellow;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 75%;
+};
