@@ -17,5 +17,5 @@ function addUser(){
     firebase.database().ref("/").child(user_name).update({
         purpose: "adding user"
     });
-    sdocument.getElementById("user_name").value = "";
+    document.getElementById("user_name").value = "";
 }
