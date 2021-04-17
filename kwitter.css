@@ -14,6 +14,11 @@ background-image: linear-gradient(to right top, #0091ff, #286a96, #193e53, #0129
 background-image: linear-gradient(to right top, #0091ff, #286a96, #193e53, #01293f);
 }
 
+#csc
+{
+background-image: linear-gradient(to right top, #003450, #004f7c, #0077c7, #a2d7ff);
+}
+
 .header
 {
 	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
